@@ -12,22 +12,26 @@ border-radius:75px;
     position: fixed;
     height: 100%;
     overflow: auto;
-    padding:20px;
+    padding:10px;
   padding-left:30px;
   }
 .intro{display:flex;
 flex-direction: column;}
-
+.tagline{font-size: 15px;}
 .about{margin:10px;
 }
 .content{max-width:700px;
 padding:20px;
 
 margin:auto;}
+
 .fa{font-size: 22px;
 margin-left:5px;}
 
-.page-footer{background-color: #4d4d4d;}
+.page-footer{background-color: #4d4d4d;
+color:#ffffff;
+text-align: center;
+font-size: 12px;}
   @media screen and (max-width: 700px) {
     .sidebar {
       width: 100%;
